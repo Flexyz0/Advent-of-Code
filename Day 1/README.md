@@ -3,7 +3,7 @@
 ## Additional notes
 
 My strategy on part two was slicing lines for every letter and look for if its starting with a number spelling and replace that spelling with a digit.
-In replacing I used ˙function() {return equals[j]}˙ to only replace first match (I think not doing it could give the same result) and its replacing word-1 to get through overlapping problem. In example : It have 'eightwo', will look for if its starting with 'eight' but will replace 'eigh' to 8, so this gives '8two' not '8wo'.
+In replacing I used `function() {return equals[j]}` to only replace first match (I think not doing it could give the same result) and its replacing word-1 to get through overlapping problem. In example : It have 'eightwo', will look for if its starting with 'eight' but will replace 'eigh' to 8, so this gives '8two' not '8wo'.
 
 ## --- Part One ---
 
